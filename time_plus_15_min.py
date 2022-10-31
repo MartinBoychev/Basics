@@ -23,21 +23,3 @@ elif 50 > time_in_minutes > 45:
     print(f"{time_in_hours + 1}:0{minutes_above}")
 else:
     print("Enter valid hour and minutes")
-
-
-
-
-
-
-# if time_in_minutes < 45:
-#     print(f"{time_in_hours}:{time_in_minutes + 15}")
-# elif time_in_hours == 23 and time_in_minutes == 45:
-#     print(f"0:0{minutes_above}")
-# elif time_in_hours == 23 and time_in_minutes > 45:
-#     print(f"0:{minutes_above}")
-# elif 15 > minutes_above > 10:
-#     print(f"{time_in_hours + 1}:{minutes_above}")
-# elif time_in_minutes < 60:
-#     print(f"{time_in_hours + 1}:{minutes_above}")
-# else:
-#     print("Enter valid integer number")
