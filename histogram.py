@@ -10,11 +10,11 @@ for i in range(0, n):
     count_nums += 1
     if 0 < num < 200:
         p1 += 1
-    elif 200 <= num < 400:
+    elif num < 400:
         p2 += 1
-    elif 400 <= num < 600:
+    elif num < 600:
         p3 += 1
-    elif 600 <= num < 800:
+    elif num < 800:
         p4 += 1
     elif num >= 800:
         p5 += 1
