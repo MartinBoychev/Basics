@@ -5,6 +5,7 @@ p3 = 0
 p4 = 0
 p5 = 0
 count_nums = 0
+
 for i in range(0, n):
     num = int(input())
     count_nums += 1
