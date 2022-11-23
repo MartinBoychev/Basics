@@ -10,21 +10,18 @@ result = 0
 
 for _ in range(0, turns):
     number = int(input())
-    if 50 < number:
-        invalid += 1
-        result /= 2
-    elif 0 > number:
+    if number < 0 or 50 < number:
         invalid += 1
         result /= 2
     elif number < 10:
         zero_to_9 += 1
-        result = (0.2 * number) + result
+        result += (0.2 * number)
     elif number < 20:
         ten_to_19 += 1
-        result = (0.3 * number) + result
+        result += (0.3 * number)
     elif number < 30:
         twenty_to_29 += 1
-        result = (0.4 * number) + result
+        result += (0.4 * number)
     elif number < 40:
         thirty_to_39 += 1
         result += 50
