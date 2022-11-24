@@ -10,8 +10,6 @@ even_max = -sys.maxsize
 
 for num in range(1, count + 1):
     current_num = float(input())
-    if count == 1:
-        odd_min = current_num
     if num % 2 == 0:
         even_sum += current_num
         if current_num > even_max:
