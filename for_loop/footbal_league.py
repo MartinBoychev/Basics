@@ -11,8 +11,6 @@ per_g = 0
 per_all = 0
 
 for _ in range(0, num_fans):
-    if num_fans > capacity_stadium:
-        break
     sector = input()
     if sector == "A":
         sector_a += 1
