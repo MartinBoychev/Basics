@@ -14,27 +14,3 @@ if max_diff == 0:
     print(f"Yes, value={previous_sum}")
 else:
     print(f"No, maxdiff={max_diff}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# bot = 3
-#
-# for i in range(1, n + 1):
-#     num = int(input())
-#     if i < bot:
-#         bot += 2
-#
-
