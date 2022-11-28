@@ -14,7 +14,7 @@ while name_of_test != "Enough":
     if grade <= 4:
         failures += 1
 
-    if failures >= bad_grades:
+    if failures == bad_grades:
         failed = True
         break
 
