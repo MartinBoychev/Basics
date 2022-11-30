@@ -1,6 +1,6 @@
 name = input()
 password = input()
-guess_pass = ""
+guess_pass = input()
 
 while guess_pass != password:
     guess_pass = input()
