@@ -10,6 +10,7 @@ while True:
         fails += 1
         if fails == 2:
             print(f"{name} has been excluded at {year} grade")
+            break
         year -= 1
     else:
         total_grade += grade
