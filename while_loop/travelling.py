@@ -4,7 +4,6 @@ sum_savings = 0
 next_destination_available = False
 
 while destination != "End":
-
     savings = float(input())
     sum_savings += savings
     next_destination_available = False
