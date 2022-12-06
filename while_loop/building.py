@@ -6,6 +6,7 @@ flat_num = 0
 
 for fl in range(floors, 0, -1):
     for r in range(rooms):
+
         flat_num = fl * 10 + r
 
         if fl == floors:
