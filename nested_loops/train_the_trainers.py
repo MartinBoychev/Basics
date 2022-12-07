@@ -16,4 +16,5 @@ while presentation != "Finish":
     print(f"{presentation} - {avg:.2f}.")
     presentation = input()
 
-print(f"Student's final assessment is {sum_total_grade / counter:.2f}.")
+avg_final = sum_total_grade / counter
+print(f"Student's final assessment is {avg_final:.2f}.")
